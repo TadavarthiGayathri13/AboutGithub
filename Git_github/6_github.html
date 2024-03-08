@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(30, 147, 194);
+        }
+        .main-section{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+            color: white;
+            font-style: bold;
+            font-size: 3rem;
+        }
+        .btn-section{
+              width: 98%;
+              max-width: 768px;
+              height: 92%;
+             margin: 20px auto;
+        }
+         .btn:hover {
+        transform:scale(1.01);
+         }
+        .btn{
+        display: inline-block;
+        width:300px;
+        background-color: #fff;
+        color: #555;;
+        border-radius: 1.2rem;
+        padding-block: 1.2rem;
+        font-weight: 900;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) ;
+        font-size:1rem ;
+       }
+     .btn-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        gap:3.2em;
+        padding-top: 100px;
+        display: grid;
+     }
+
+    </style>
+</head>
+<body>
+    <main class="main-section">
+        <h1>Design-clone</h1>
+        <section class="btn-section">
+            <div class="btn-wrapper">
+            <a href="https://github.com/TadavarthiGayathri13/redbus_page">
+                <div class="btn">RedBus</div>
+            </a>
+            <a href="https://github.com/TadavarthiGayathri13/Tailwind">
+                <div class="btn">Tailwind</div>
+            </a>
+            <a href="https://www.youtube.com/">
+                <div class="btn">Utube</div>
+            </a>
+            <a href="https://github.com/TadavarthiGayathri13/Resume_project">
+                <div class="btn">Resume-Project</div>
+            </a>
+
+        </div>
+    </section>
+    </main>
+</body>
+</html>
